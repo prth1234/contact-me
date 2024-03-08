@@ -12,6 +12,7 @@ import { TabsDemo } from './tabs-preview';
 // import { SparklesPreview2 } from './SparklesPreview2';
 import{LampDemo} from './lamps-view'
 import {FloatingNavDemo} from './navbar'
+import {AnimatedPinDemo} from './pin'
 export default function Page() {
   const [isTouchDevice, setIsTouchDevice] = useState(false);
 
@@ -32,6 +33,7 @@ export default function Page() {
 
       <TabsDemo />
       <BackgroundGradientAnimationDemo />
+      <AnimatedPinDemo/>
       <SparklesPreview />
 
 
