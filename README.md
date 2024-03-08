@@ -1,8 +1,6 @@
-# Project Title
+# Contact Me Page
 
-Brief description of your project.
-
-## Getting Started
+using Next.JS 
 
 ### Prerequisites
 
