@@ -14,7 +14,9 @@ import{LampDemo} from './lamps-view'
 import {FloatingNavDemo} from './navbar'
 import {GridBackgroundDemo} from './gradientDemo'
 import {AnimatedPinDemo} from './pin'
+import {MeteorsDemo} from './BackgroundGradientDemo'
 import {TypewriterEffectSmoothDemo} from './TypewriterEffectSmoothDemo'
+import {SignupFormDemo} from './SignupFormDemo'
 export default function Page() {
   const [isTouchDevice, setIsTouchDevice] = useState(false);
 
@@ -37,7 +39,9 @@ export default function Page() {
       <BackgroundGradientAnimationDemo />
     {/* <GridBackgroundDemo/> */}
      <AnimatedPinDemo/>
-     <TypewriterEffectSmoothDemo/>
+     {/* <TypewriterEffectSmoothDemo/> */}
+     {/* <MeteorsDemo/> */}
+     <SignupFormDemo/>
       <SparklesPreview />
 
 

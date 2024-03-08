@@ -1,6 +1,5 @@
 "use client";
 import { TypewriterEffectSmooth } from "@/components/ui/typewriter-effect";
-import './button.css'
 export function TypewriterEffectSmoothDemo() {
   const words = [
     {
