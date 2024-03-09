@@ -38,7 +38,6 @@ export default function Page() {
 
 
 
-      <TabsDemo />
       <BackgroundGradientAnimationDemo />
     {/* <GridBackgroundDemo/> */}
      <AnimatedPinDemo/>
@@ -50,6 +49,8 @@ export default function Page() {
      <FormsXXX/>
 
       <SparklesPreview />
+      <TabsDemo />
+
     
 
 

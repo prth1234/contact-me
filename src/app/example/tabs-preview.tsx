@@ -10,7 +10,7 @@ export function TabsDemo() {
       value: "product",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Github</p>
+          <p>prth1234</p>
           <DummyContent />
         </div>
       ),
@@ -20,7 +20,7 @@ export function TabsDemo() {
       value: "services",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>LinkedIn</p>
+          <p>parthsingh2002</p>
           <DummyContent1 />
         </div>
       ),
@@ -30,8 +30,28 @@ export function TabsDemo() {
       value: "playground",
       content: (
         <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Instagram</p>
+          <p>pxrthye</p>
           <DummyContent2 />
+        </div>
+      ),
+    },
+    {
+      title: "Mobile",
+      value: "123",
+      content: (
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+          <p>+91 920 576 7228</p>
+          <DummyContent3 />
+        </div>
+      ),
+    },
+    {
+      title: "Email",
+      value: "12",
+      content: (
+        <div className="w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+          <p>dearparthsingh@gmail.com</p>
+          <DummyContent3 />
         </div>
       ),
     },
@@ -82,3 +102,31 @@ const DummyContent1 = () => {
   };
 
   
+
+  const DummyContent3 = () => {
+    return (
+      <Image
+        src="https://i.ibb.co/s5FqN7h/Apple-Memoji.jpg"
+        alt="dummy image"
+        width="1000"
+        height="1000"
+        className="object-cover object-left-top h-[60%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
+      />
+    );
+  };
+
+
+  const DummyContent4 = () => {
+    return (
+      <Image
+        src="https://i.ibb.co/h9Gy8Q9/Pinterest-3.jpg"
+        alt="dummy image"
+        width="1000"
+        height="1000"
+        className="object-cover object-left-top h-[60%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
+      />
+    );
+  };
+
+
+
