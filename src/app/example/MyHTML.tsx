@@ -1,21 +1,18 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
-import ReactHtmlParser from "react-html-parser";
+// MyComponent.js
+import React from 'react';
+import Image from 'next/image';
 
 export function MyComponent() {
-  const [htmlContent, setHtmlContent] = useState("");
-
-  useEffect(() => {
-    // Fetch HTML content from your server or external source
-    axios.get("./example.html")
-      .then(response => setHtmlContent(response.data))
-      .catch(error => console.error("Error fetching HTML:", error));
-  }, []);
-
   return (
     <div>
-      {/* Your other React components */}
-      {ReactHtmlParser(htmlContent)}
+      <a href="" target="_blank" rel="noopener noreferrer">
+        <Image
+          src="https://i.ibb.co/DWVH3Hf/example.gif"
+          alt="Your image description"
+          width={1500}
+          height={900}
+        />
+      </a>
     </div>
   );
 }

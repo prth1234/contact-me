@@ -17,7 +17,7 @@ import {AnimatedPinDemo} from './pin'
 import {MeteorsDemo} from './BackgroundGradientDemo'
 import {TypewriterEffectSmoothDemo} from './TypewriterEffectSmoothDemo'
 import {SignupFormDemo} from './SignupFormDemo'
-import {MyHTML} from './MyHTML'
+import {MyComponent} from './MyHTML'
 export default function Page() {
   const [isTouchDevice, setIsTouchDevice] = useState(false);
 
@@ -43,8 +43,9 @@ export default function Page() {
      {/* <TypewriterEffectSmoothDemo/> */}
      {/* <MeteorsDemo/> */}
      {/* <SignupFormDemo/> */}
+     <MyComponent/>
       <SparklesPreview />
-      <MyHTML/>
+    
 
 
 
