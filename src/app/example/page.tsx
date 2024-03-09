@@ -18,6 +18,8 @@ import {MeteorsDemo} from './BackgroundGradientDemo'
 import {TypewriterEffectSmoothDemo} from './TypewriterEffectSmoothDemo'
 import {SignupFormDemo} from './SignupFormDemo'
 import {MyComponent} from './MyHTML'
+
+import {FormsXXX} from './forms'
 export default function Page() {
   const [isTouchDevice, setIsTouchDevice] = useState(false);
 
@@ -44,6 +46,8 @@ export default function Page() {
      {/* <MeteorsDemo/> */}
      {/* <SignupFormDemo/> */}
      <MyComponent/>
+     <FormsXXX/>
+
       <SparklesPreview />
     
 
