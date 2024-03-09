@@ -106,7 +106,7 @@ const DummyContent1 = () => {
   const DummyContent3 = () => {
     return (
       <Image
-        src="https://i.ibb.co/s5FqN7h/Apple-Memoji.jpg"
+        src="https://i.ibb.co/N32tQNR/Screenshot-2024-03-09-at-4-02-47-PM.png"
         alt="dummy image"
         width="1000"
         height="1000"
