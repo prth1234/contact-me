@@ -4,8 +4,8 @@ export function FormsXXX() {
   const iframeStyles = {
     width: "100vw",
     minWidth: "100%",
-    height: "100vh",
-    border: "none",
+    height: "30vh",
+    border: "1",
   };
 
   return (
