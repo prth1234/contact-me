@@ -45,7 +45,28 @@ export default function Page() {
       <FormsXXX />
 
       <SparklesPreview />
+      <Footer />
+
       <TabsDemo />
     </>
   );
 }
+
+const Footer = () => {
+  return (
+    <div
+      style={{
+        borderTop: "1px solid white",
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
+        padding: "10px",
+        color: "white",
+        marginTop: 100,
+        // marginBottom: 10,
+      }}
+    >
+      <div style={{ marginLeft: "auto" }}>Created by Parth</div>
+    </div>
+  );
+};
