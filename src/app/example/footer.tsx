@@ -107,7 +107,7 @@ export const Footerr: React.FC = () => {
             className="footer-cta footer-cta-white w-inline-block"
           >
             <div className="footer-cta-wrapper">
-              <h1 className="h2-title h2-title-prefooter ">About Me</h1>
+              <h1 className="inter-var text-center text-2xl font-bold text-white md:text-4xl lg:text-7xl ">About Me</h1>
               <h1 className="h2-title h2-prefooter-arrow ">→</h1>
             </div>
             <div className="footer-cta-progress">
@@ -122,8 +122,8 @@ export const Footerr: React.FC = () => {
           <div className="footer-sticky">
             <div className="footer-grid">
               <div className="footer-grid-column">
-                <h6 className="footer-title black-text">Address</h6>
-                <h6 className="footer-title footer-text black-text">
+                <h6 className="inter-var text-center text-2xl font-bold text-white md:text-4xl lg:text-7xl">Address</h6>
+                <h6 className="inter-var text-center text-2xl font-bold text-white md:text-4xl lg:text-7xl">
                   #15–7015 Tranmere Dr <br /> Mississauga, ON L5S 1T7
                 </h6>
               </div>
@@ -131,20 +131,20 @@ export const Footerr: React.FC = () => {
                 <a
                   href="https://www.instagram.com/spline_mep/"
                   target="_blank"
-                  className="footer-title black-text"
+                  className="inter-var text-center text-2xl font-bold text-white md:text-4xl lg:text-7xl"
                 >
                   Instagram
                 </a>
                 <a
                   href="https://www.linkedin.com/company/splinegroup/"
                   target="_blank"
-                  className="footer-title black-text"
+                  className="inter-var text-center text-2xl font-bold text-white md:text-4xl lg:text-7xl"
                 >
                   LinkedIn
                 </a>
               </div>
               <div className="footer-grid-column">
-                <a href="/career" className="footer-title black-text">
+                <a href="/career" className="inter-var text-center text-2xl font-bold text-white md:text-4xl lg:text-7xl">
                   Careers
                 </a>
               </div>
@@ -158,7 +158,7 @@ export const Footerr: React.FC = () => {
               className="footer-cta w-inline-block"
             >
               <div className="footer-cta-wrapper">
-                <h1 className="h2-title h2-title-footer black-text">My Portfolio</h1>
+                <h1 className="inter-var text-center text-2xl font-bold text-black md:text-4xl lg:text-7xl">My Portfolio</h1>
                 <h1 className="h2-title h2-footer-arrow black-text">→</h1>
               </div>
               <div className="footer-cta-progress">

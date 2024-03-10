@@ -9,7 +9,7 @@ export function SparklesPreview() {
         <WavyBackgroundDemo />
         {/* <TabsDemo/> */}
       </div>
-      <div className="w-full absolute inset-0 h-screen">
+      {/* <div className="w-full absolute inset-0 h-screen">
         <SparklesCore
           id="tsparticlesfullpage"
           background="transparent"
@@ -19,7 +19,7 @@ export function SparklesPreview() {
           className="w-full h-full"
           particleColor="#FFFFFF"
         />
-      </div>
+      </div> */}
     </div>
   );
 }
