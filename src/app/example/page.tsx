@@ -20,6 +20,7 @@ import { SignupFormDemo } from "./SignupFormDemo";
 import { MyComponent } from "./MyHTML";
 import { SparklesPreview1 } from "./sparkle_text";
 import { FormsXXX } from "./forms";
+import {Footerr} from "./footer"
 import { color } from "framer-motion";
 export default function Page() {
   const [isTouchDevice, setIsTouchDevice] = useState(false);
@@ -51,10 +52,12 @@ export default function Page() {
           minHeight: "auto",
         }}
       >
-        <Footer />
+        {/* <Footer /> */}
 
         <TabsDemo />
+        <Footerr/>
       </div>
+
     </>
   );
 }
@@ -91,8 +94,10 @@ const Footer = () => {
         padding: "10px",
         color: "white",
         marginTop: 100,
-        // background:
-        //   "conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0, #0000 75%) 60px 60px, conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) calc(2 * 60px) calc(2 * 60px), conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) calc(3 * 60px) calc(3 * 60px), repeating-linear-gradient(135deg, #adafff 0 12.5%, #474bff 0 25%)",
+        background:
+          "conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0, #0000 75%) 60px 60px, conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) calc(2 * 60px) calc(2 * 60px), conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) calc(3 * 60px) calc(3 * 60px), repeating-linear-gradient(135deg, #adafff 0 12.5%, #474bff 0 25%)",
+        // background: `url('https://i.ibb.co/jbxDKBn/Header-Footer-Placeholder.png')`
+        
       }}
     >
       <div

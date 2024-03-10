@@ -1,5 +1,5 @@
 import React from "react";
-
+import './style2.css'
 export function FormsXXX() {
   const iframeStyles = {
     width: "100vw",
@@ -23,3 +23,5 @@ export function FormsXXX() {
     </>
   );
 }
+
+
