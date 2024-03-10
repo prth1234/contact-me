@@ -6,6 +6,7 @@ export function FormsXXX() {
     minWidth: "100%",
     height: "30vh",
     border: "1",
+    overflow: "hidden", // Set overflow to hide the scrollbar
   };
 
   return (
@@ -22,5 +23,3 @@ export function FormsXXX() {
     </>
   );
 }
-
-

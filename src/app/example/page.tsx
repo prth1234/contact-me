@@ -20,6 +20,7 @@ import { SignupFormDemo } from "./SignupFormDemo";
 import { MyComponent } from "./MyHTML";
 import { SparklesPreview1 } from "./sparkle_text";
 import { FormsXXX } from "./forms";
+import { color } from "framer-motion";
 export default function Page() {
   const [isTouchDevice, setIsTouchDevice] = useState(false);
 
@@ -45,13 +46,40 @@ export default function Page() {
       <FormsXXX />
 
       <SparklesPreview />
-      <Footer />
+      <div
+        style={{
+          minHeight: "auto",
+        }}
+      >
+        <Footer />
 
-      <TabsDemo />
+        <TabsDemo />
+      </div>
     </>
   );
 }
 
+// const Footer = () => {
+//   return (
+//     <div
+//       style={{
+//         borderTop: "1px solid white",
+//         display: "flex",
+//         justifyContent: "space-between",
+//         alignItems: "center",
+//         padding: "10px",
+//         color: "white",
+//         marginTop: 100,
+//         // marginBottom: 10,
+//       }}
+//     >
+//       <div style={{ marginLeft: "10", fontFamily: "Gotham, sans-serif" }}>
+//         Created by <b>PARTH</b>
+//       </div>
+//       <div style={{ marginRight: "10" }}>👋</div>
+//     </div>
+//   );
+// };
 const Footer = () => {
   return (
     <div
@@ -63,10 +91,17 @@ const Footer = () => {
         padding: "10px",
         color: "white",
         marginTop: 100,
-        // marginBottom: 10,
+        // background:
+        //   "conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0, #0000 75%) 60px 60px, conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) calc(2 * 60px) calc(2 * 60px), conic-gradient(at 50% 25%, #0000 75%, #47d3ff 0) calc(3 * 60px) calc(3 * 60px), repeating-linear-gradient(135deg, #adafff 0 12.5%, #474bff 0 25%)",
       }}
     >
-      <div style={{ marginLeft: "10", fontFamily: "Gotham, sans-serif" }}>
+      <div
+        style={{
+          marginLeft: "10",
+          fontFamily: "Gotham, sans-serif",
+          color: "white",
+        }}
+      >
         Created by <b>PARTH</b>
       </div>
       <div style={{ marginRight: "10" }}>👋</div>
