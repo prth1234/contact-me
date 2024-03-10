@@ -66,7 +66,10 @@ const Footer = () => {
         // marginBottom: 10,
       }}
     >
-      <div style={{ marginLeft: "auto" }}>Created by Parth</div>
+      <div style={{ marginLeft: "10", fontFamily: "Gotham, sans-serif" }}>
+        Created by <b>PARTH</b>
+      </div>
+      <div style={{ marginRight: "10" }}>👋</div>
     </div>
   );
 };
