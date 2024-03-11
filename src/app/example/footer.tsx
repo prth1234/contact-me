@@ -99,8 +99,30 @@ export const Footerr: React.FC = () => {
       <footer className="footer">
         <div data-midnight="white" className="footer-break">
           {/* <div className="footer-break-image-div">
-            <img src="" alt="" className="image-scale imagezoom" />
+            <img src="
+            " alt="" className="image-scale imagezoom" />
           </div> */}
+           <div className="footer-grid-column">
+                <a
+                  href="https://www.instagram.com/spline_mep/"
+                  target="_blank"
+                  className="inter-var text-center text-2xl font-bold text-white md:text-4xl lg:text-3xl"
+                >
+                  Instagram
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/splinegroup/"
+                  target="_blank"
+                  className="inter-var text-center text-2xl font-bold text-white md:text-4xl lg:text-3xl"
+                >
+                  LinkedIn
+                </a>
+              </div>
+              <div className="footer-grid-column">
+                <a href="/career" className="inter-var text-center text-2xl font-bold text-white md:text-4xl lg:text-3xl">
+                  Careers
+                </a>
+              </div>
           <a
             data-w-id="03a02450-cbe2-56a1-4a5f-ff016dc376af"
             href="/about-us"
@@ -122,32 +144,13 @@ export const Footerr: React.FC = () => {
           <div className="footer-sticky">
             <div className="footer-grid">
               <div className="footer-grid-column">
-                <h6 className="inter-var text-center text-2xl font-bold text-white md:text-4xl lg:text-7xl">Address</h6>
-                <h6 className="inter-var text-center text-2xl font-bold text-white md:text-4xl lg:text-7xl">
-                  #15–7015 Tranmere Dr <br /> Mississauga, ON L5S 1T7
+                <h6 className="inter-var text-center text-2xl font-bold text-black md:text-4xl lg:text-3xl">Address</h6>
+                <h6 className="inter-var text-center text-2xl font-bold text-black md:text-4xl lg:text-3xl">
+                  Harlur Main Rd, Bangalore, Karnataka<br/>Email: dearparthsingh@gmail.com<br/>Ph No. +91 920 576 7228
+
                 </h6>
               </div>
-              <div className="footer-grid-column">
-                <a
-                  href="https://www.instagram.com/spline_mep/"
-                  target="_blank"
-                  className="inter-var text-center text-2xl font-bold text-white md:text-4xl lg:text-7xl"
-                >
-                  Instagram
-                </a>
-                <a
-                  href="https://www.linkedin.com/company/splinegroup/"
-                  target="_blank"
-                  className="inter-var text-center text-2xl font-bold text-white md:text-4xl lg:text-7xl"
-                >
-                  LinkedIn
-                </a>
-              </div>
-              <div className="footer-grid-column">
-                <a href="/career" className="inter-var text-center text-2xl font-bold text-white md:text-4xl lg:text-7xl">
-                  Careers
-                </a>
-              </div>
+             
             </div>
             <div className="tagline-container">
               <h6 className="footer-title black-text">🙂</h6>
